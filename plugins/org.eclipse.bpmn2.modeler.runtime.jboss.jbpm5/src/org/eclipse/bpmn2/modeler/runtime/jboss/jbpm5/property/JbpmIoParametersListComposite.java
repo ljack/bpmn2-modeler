@@ -41,6 +41,9 @@ public class JbpmIoParametersListComposite extends IoParametersListComposite {
 			InputOutputSpecification ioSpecification,
 			EStructuralFeature ioFeature) {
 		super(detailComposite, container, ioSpecification, ioFeature);
+		setLayout(new GridLayout(1, false));
+		setLayoutData(new GridData(SWT.FILL,SWT.FILL,true,true,1,1)); 
+
 	}
 	
 	@Override
