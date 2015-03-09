@@ -380,7 +380,7 @@ public abstract class AbstractListComposite extends ListAndDetailCompositeBase i
 			// display title in the table section and/or show a details section
 			// SHOW_DETAILS forces drawing of a section title
 			sashForm = new SashForm(this, SWT.NONE);
-			sashForm.setLayoutData(new GridData(SWT.FILL, SWT.TOP, true, false, 3, 1));
+			sashForm.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 3, 1));
 			
 			tableSection = createListSection(sashForm,label);
 			
