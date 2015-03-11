@@ -35,10 +35,12 @@ public class JbpmIoParametersDetailComposite extends IoParametersDetailComposite
 
 	public JbpmIoParametersDetailComposite(Composite parent, int style) {
 		super(parent, style);
+		setLayout(new GridLayout(1, false));
 	}
 
 	public JbpmIoParametersDetailComposite(AbstractBpmn2PropertySection section) {
 		super(section);
+		setLayout(new GridLayout(1, false));
 	}
 
 	@Override
